@@ -6,7 +6,7 @@ import PriceRange from "../filters/PriceRange";
 
 export default function Sidebar() {
   return (
-    <aside className="flex flex-col gap-[47px] w-[300px]">
+    <aside className="hidden lg:block flex flex-col gap-[47px] w-[300px]">
       <div className="border rounded-md p-2 flex flex-col">
         <p>Filter by:</p>
         <HomeType />
